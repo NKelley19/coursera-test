@@ -1,54 +1,92 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Module 2 Code Assignment</title>
-<style>
-*{
+* {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
 }
-
-body {
-	background-color: gray;
+.menu {
+	width: 100%;
+	position: relative;
 }
-
-#box {
-	background-color: blue;
-	padding: 10px
+#menu-title {
+	font-size: 1.75em;
+	text-align: center;
+}
+.section {
+	float: left;
+	position: relative;
+	margin: 10px;
+	background-color: #e5e4e2;
 	border: 1px solid black;
-	width: 300px;
-	margin-top: 50px;
-	font-size: 175%;
+	padding: 20px 5px 5px 5px;
+	clear: both;
+}
+.title {
+	border: 1px solid black;
+	margin: -1px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 1.25em;
+	font-weight: bold;
+	width: 120px;
+	text-align: center;
+	padding: 2px;
+}
+#chicken {
+	background-color: #ffdfdd;
+}
+#beef {
+	background-color: #8c001a;
+	color: white;
+}
+#sushi {
+	background-color: #fff8dc;
 }
 
-// desktop //
+/*desktop*/
 @media (min-width: 992px) {
-	#title {
-		background-color: black;
-		padding: 10px;
-		border: 1px solid black;
-		width: 150px;
-		margin-top: 10px;
-		font-size: 125%;
+	.third-lg, .half-lg, .whole-lg {
+	float: left;
 	}
-
-	#p1 {
-		background-color: gray;
-		position: relative;
-		top: 65px;
-		left: 65px;
+	.third-lg {
+	width: 33%;
+	}
+	.half-lg {
+	width: 50%;
+	}
+	.whole-lg {
+	width: 100%;
 	}
 }
 
-
-// tablet //
+/*tablet*/
 @media (min-width: 768px) and (max-width: 991px) {
-	
+	.third-md, .half-md, .whole-md {
+	float: left;
+	}
+	.third-md {
+	width: 33%;
+	}
+	.half-md: {
+	width: 50%;
+	}
+	.whole-md {
+	width: 100%;
+	}
 }
 
-// mobile //
-@media (max-width 767px) {
-	
+/*mobile*/
+@media (max-width: 767px) {
+	.third-sm, .half-sm, .whole-sm {
+	float: left;
+	}
+	.third-sm {
+	width: 33%;
+	}
+	.half-sm {
+	width: 50%;
+	}
+	.whole-sm {
+	width: 100%;
+	}
 }
