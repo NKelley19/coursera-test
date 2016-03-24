@@ -1,0 +1,11 @@
+body {
+	color: white;
+	background-color: #0d0840;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#header-nav {
+	background-color: #ff8d00;
+	border-radius: 0;
+	border: 0;
+}
